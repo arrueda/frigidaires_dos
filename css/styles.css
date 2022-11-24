@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Vinculo WhatsApp y QR*/
+.whatsapp_icon{
+    position: fixed;
+    right: 2%;
+    bottom: 69%;
+    z-index: 1;
+    width: 5%;
+}
+
+.whatsapp_icon:hover{
+    opacity: 0.6;
+}
+
+#botonQr{
+    position: fixed;
+    right: 1.2%;
+    bottom: 64%;
+    z-index: 1;
+    color: white;
+    background-color: rgb(59, 226, 59);
+    border-radius: 10%;
+    border-color: rgb(9, 165, 9);
+}
+
+#botonQr:hover{
+    border-color: rgb(114, 247, 114);
+}
+
+#codigo_qr{
+    display: none;
+    position: fixed;
+    right: 30%;
+    bottom: 15%;
+    z-index: 1;
+    width: 40%;
+    background-color: white;
+}
+
+/* Iconos de facbook e Instragram en tamaño movil*/
+.justify-content-around{
+    margin: 1% 5% 2% 5%;
+}
+
+/*Texto encabezado FRIGIDAIRES*/
+.container h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Formulario de cotacto*/
+form{
+    margin: 2% 5% 2% 5%;
+}
